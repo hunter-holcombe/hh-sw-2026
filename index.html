@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hunter Holcombe — Selected Work</title>
+<style>
+  :root{
+    --bg:#0b0b0d;
+    --card:#151517;
+    --line:#26262e;
+    --line-soft:#1d1d24;
+    --text:#f2f2f4;
+    --body:#c9c9d1;
+    --muted:#8b8b96;
+    --accent:#e8613c;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    line-height:1.5;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:72px 36px 64px;}
+
+  /* ===== header ===== */
+  .eyebrow{
+    color:var(--muted);font-size:12.5px;font-weight:600;
+    letter-spacing:.18em;text-transform:uppercase;margin:0 0 14px;
+  }
+  .eyebrow b{color:var(--text);font-weight:600;}
+  .title{
+    font-size:38px;font-weight:700;letter-spacing:-.8px;
+    color:var(--text);margin:0 0 18px;line-height:1.15;
+  }
+  .intro{
+    color:var(--body);font-size:16.5px;max-width:680px;
+    margin:0;line-height:1.65;
+  }
+
+  /* ===== section ===== */
+  .sec{margin-top:84px;}
+  .sec-head{border-top:1px solid var(--line);padding-top:28px;margin-bottom:28px;}
+  .sec-head h2{
+    font-size:22px;font-weight:650;color:var(--text);margin:0;
+    display:flex;align-items:center;gap:12px;letter-spacing:-.2px;
+  }
+  .sec-head h2::before{content:"";width:9px;height:9px;border-radius:2px;background:var(--accent);flex:0 0 auto;}
+  .sec-desc{color:var(--muted);font-size:14.5px;margin:9px 0 0 21px;max-width:640px;}
+
+  /* ===== grids ===== */
+  .hero{display:grid;grid-template-columns:1fr;gap:32px;}
+  .duo{display:grid;grid-template-columns:repeat(2,1fr);gap:32px;margin-top:32px;}
+  .trio{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;}
+
+  .card{margin:0;min-width:0;}
+  .frame{
+    background:#000;
+    border:1px solid var(--line);
+    border-radius:16px;
+    overflow:hidden;
+    line-height:0;
+    transition:border-color .18s ease;
+  }
+  .card:hover .frame{border-color:#3b3b47;}
+  video{display:block;width:100%;height:auto;background:#000;}
+  .hero video,.duo video{aspect-ratio:16/9;object-fit:cover;}
+  .trio video{aspect-ratio:9/16;object-fit:cover;}
+  .cap{margin:14px 4px 0;}
+  .cap .what{display:block;color:var(--text);font-weight:600;font-size:14.5px;letter-spacing:.1px;line-height:1.4;}
+  .cap .why{display:block;color:var(--muted);font-size:13px;line-height:1.55;margin-top:5px;}
+
+  /* ===== written ===== */
+  details{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:16px;
+    padding:6px 30px;
+    max-width:800px;
+    transition:border-color .18s ease;
+  }
+  details:hover{border-color:#3b3b47;}
+  summary{
+    cursor:pointer;color:var(--text);font-size:16.5px;font-weight:650;
+    padding:20px 0;list-style:none;display:flex;align-items:baseline;gap:12px;
+    letter-spacing:-.1px;
+  }
+  summary::-webkit-details-marker{display:none;}
+  summary::before{content:"▸";color:var(--accent);font-size:14px;flex:0 0 auto;}
+  details[open] summary::before{content:"▾";}
+  summary .hint{color:var(--muted);font-size:13px;font-weight:500;margin-left:auto;flex:0 0 auto;}
+  .essay{
+    color:#d3d3da;font-size:15.5px;line-height:1.8;
+    font-family:Georgia,"Times New Roman",serif;
+    padding:4px 0 22px;max-width:700px;
+  }
+  .essay p{margin:0 0 16px;}
+  .essay .ph{color:var(--muted);font-style:italic;font-size:13px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;}
+
+  /* ===== footer ===== */
+  .foot{
+    border-top:1px solid var(--line);margin-top:96px;padding-top:26px;
+    color:var(--muted);font-size:13.5px;display:flex;gap:8px;flex-wrap:wrap;
+  }
+  .foot b{color:var(--body);font-weight:600;}
+  .foot a{color:var(--body);text-decoration:none;}
+
+  @media (max-width:860px){
+    .duo{grid-template-columns:1fr;}
+    .trio{grid-template-columns:repeat(2,1fr);gap:20px;}
+    .title{font-size:30px;}
+  }
+  @media (max-width:560px){
+    .wrap{padding:48px 20px 56px;}
+    .sec{margin-top:64px;}
+    details{padding:2px 20px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="eyebrow"><b>Hunter Holcombe</b> &nbsp;·&nbsp; Work Samples &nbsp;·&nbsp; For the Cohere team</p>
+  <h1 class="title">Selected work</h1>
+  <p class="intro">A handful of examples across the kinds of work I do — founder thought leadership, produced films, live-event storytelling, recurring formats, and writing. These were designed for Carta's audience, goals, and on-camera talent; for Cohere, I'd design for Cohere's. Happy to walk through any of them.</p>
+
+  <!-- ===== SECTION 1 ===== -->
+  <section class="sec">
+    <div class="sec-head">
+      <h2>Produced Films &amp; Explainers</h2>
+    </div>
+    <div class="hero">
+      <figure class="card">
+        <div class="frame"><video controls playsinline preload="none" poster="portfolio_assets/_posters/p01.jpg?v=2" src="portfolio_assets/01_Henry_ERP-explainer_YT.mp4"></video></div>
+        <figcaption class="cap"><span class="what">Keystone company announcement (Henry Ward, CEO — Carta)</span><span class="why">Carta's platform-vision launch — a film I produced with the CEO to carry the company's biggest announcement of the year.</span></figcaption>
+      </figure>
+    </div>
+    <div class="duo">
+      <figure class="card">
+        <div class="frame"><video controls playsinline preload="none" poster="portfolio_assets/_posters/p02.jpg?v=2" src="portfolio_assets/02_Google_documentary_YT.mp4"></video></div>
+        <figcaption class="cap"><span class="what">Brand documentary (Google)</span><span class="why">Longer-form produced storytelling.</span></figcaption>
+      </figure>
+      <figure class="card">
+        <div class="frame"><video controls playsinline preload="none" poster="portfolio_assets/_posters/p08.jpg?v=2" src="portfolio_assets/08_Henry_ProductDemo_LI.mp4"></video></div>
+        <figcaption class="cap"><span class="what">Product storytelling (CEO-led)</span><span class="why">A CEO-led initiative to present the product as narrative — the software brought to life as a story, not a feature demo.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 2 ===== -->
+  <section class="sec">
+    <div class="sec-head">
+      <h2>Founder Thought Leadership</h2>
+      <p class="sec-desc">Short-form video built around a founder's voice and point of view.</p>
+    </div>
+    <div class="trio">
+      <figure class="card">
+        <div class="frame"><video controls playsinline preload="none" poster="portfolio_assets/_posters/p03.jpg?v=2" src="portfolio_assets/03_Henry_DC-401k_HD.mp4"></video></div>
+        <figcaption class="cap"><span class="what">On location in DC (Henry Ward, CEO)</span><span class="why">Field-captured around Capitol Hill policy meetings — with the SEC and policy leaders on equity in 401ks — turned into timely, shareable content.</span></figcaption>
+      </figure>
+      <figure class="card">
+        <div class="frame"><video controls playsinline preload="none" poster="portfolio_assets/_posters/p07.jpg?v=2" src="portfolio_assets/07_Henry_ProductMgmt-TL_LI.mp4"></video></div>
+        <figcaption class="cap"><span class="what">Short-form POV (Henry Ward, CEO)</span><span class="why">One of a standing cadence of quick takes that keep the founder's voice in front of his audience consistently.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 3 ===== -->
+  <section class="sec">
+    <div class="sec-head">
+      <h2>On Stage &amp; In the Field</h2>
+      <p class="sec-desc">Executives at live events and interviews, turned into social-ready moments.</p>
+    </div>
+    <div class="trio">
+      <figure class="card">
+        <div class="frame"><video controls playsinline preload="none" poster="portfolio_assets/_posters/p09.jpg?v=5" src="portfolio_assets/09_Henry_StageCapture-AI_LI.mp4"></video></div>
+        <figcaption class="cap"><span class="what">Fireside stage moment (Henry Ward)</span><span class="why">A founder's stage time, atomized into clips built for social.</span></figcaption>
+      </figure>
+      <figure class="card">
+        <div class="frame"><video controls playsinline preload="none" poster="portfolio_assets/_posters/p05.jpg?v=2" src="portfolio_assets/05_Henry_HumanX-capture_LI.mp4"></video></div>
+        <figcaption class="cap"><span class="what">Conference interview (Henry Ward, HumanX)</span><span class="why">An on-site interview, turned around as punchy captioned clips.</span></figcaption>
+      </figure>
+      <figure class="card">
+        <div class="frame"><video controls playsinline preload="none" poster="portfolio_assets/_posters/p04.jpg?v=8" src="portfolio_assets/04_Charly_BTS_YTshort.mp4"></video></div>
+        <figcaption class="cap"><span class="what">Executive field piece (Charly Kevers, CFO — at SuperReturn)</span><span class="why">The same approach extended beyond the CEO — scaled across the C-suite.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 4 ===== -->
+  <section class="sec">
+    <div class="sec-head">
+      <h2>Recurring Series &amp; Formats</h2>
+      <p class="sec-desc">Owned, repeatable formats that build an audience over time.</p>
+    </div>
+    <div class="trio">
+      <figure class="card">
+        <div class="frame"><video controls playsinline preload="none" poster="portfolio_assets/_posters/p07b.jpg?v=7" src="portfolio_assets/07b_Peter_3takeaways_HD.mp4"></video></div>
+        <figcaption class="cap"><span class="what">"Three takeaways" format (Peter Walker, Head of Insights)</span><span class="why">A format I designed to turn an expert's insight into a clean, recurring series.</span></figcaption>
+      </figure>
+      <figure class="card">
+        <div class="frame"><video controls playsinline preload="none" poster="portfolio_assets/_posters/p11.jpg?v=5" src="portfolio_assets/11_DataMinute-2_LI.mp4"></video></div>
+        <figcaption class="cap"><span class="what">Data Minute — a podcast I produce</span><span class="why">A recurring show I make with Peter Walker — produced end-to-end, from format to distribution.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 5 ===== -->
+  <section class="sec">
+    <div class="sec-head">
+      <h2>Written</h2>
+      <p class="sec-desc">Thought leadership I ghostwrote for the CEO's LinkedIn.</p>
+    </div>
+    <details>
+      <summary>Looking Back, To Look Forward: An ERP Evolution <span class="hint">read the piece</span></summary>
+      <div class="essay">
+        <p>Maybe it's just that time of the year, but I've been thinking a lot about how Carta has evolved, and where we are headed next. I think that's one difference between Founder CEOs and Professional CEOs. Professional CEOs focus almost entirely on the future, but Founders have watched an idea grow—into something tangible, and then successful—all the while deeply feeling every bump and stumble along the way. It's a little like being a parent. So proud, yet so protective.</p>
+        <p>I've felt the bumps and stumbles here at Carta over the years. They stung at the time. But, looking back, they now seem like almost inevitable consequences of companies that move fast and iterate often.</p>
+        <p>There are valuable lessons in looking back. It helps illuminate the path that led to this thrilling new chapter we enter into now.</p>
+        <p>Carta began with a simple concept—fix the outdated ways of cap table tracking and management, by taking them out of spreadsheets and into software. From there, we marched forward, led by a simple North Star—meet the customers where their needs were, and build products to revolutionize private capital finance, everywhere we could.</p>
+        <p>So we moved along the line from Startups to Venture, building solutions for fund financials, valuation, tax reporting, PortCo monitoring. And now into Private Equity, leading with waterfall modeling, and LP reporting. <span class="ph">[chart in the original post]</span></p>
+        <p>But here's why it can be so valuable to step back, and away from the often myopic obsession with the future. We've been so laser focused on these individual solutions, I didn't fully appreciate that, all along, we'd been building the parts of something far greater in sum—an ERP.</p>
+        <p>I don't love the term ERP—it's dated and vague. "Enterprise Resource Planning" systems started in the 60s, and came alive in the '80s and '90s, for manufacturing and dot-com era software. NetSuite is the classic model today, and one I spend a lot of time exploring.</p>
+        <p>But it's essentially the ideal place you want to land as a SaaS company—a fully integrated, all-in-one solution. A one-stop-shop. And that's what we are building at Carta.</p>
+        <p>People often ask me what a CEO does. Mind the ship? Lead by example? Hire great people? Sure. But, admittedly, we have such an incredible team here, such an eclectic ensemble of razor-sharp innovators, problem-solvers and leaders, they don't need me day-to-day to mind the helm.</p>
+        <p>But what <em>is</em> my job, is to make sure the ship is headed in the right direction, years in advance. And so over this past year I've been focused on laying out the scaffolding for how and why Carta fully makes this transition.</p>
+        <p>I'm overwhelmed with excitement for this new phase of our evolution, from scrappy startup to full-fledged platform. I've been on a roadshow to our offices around the world, meeting with our teams to talk through how this ERP vision is coming together. And we made a short explainer video here that gives a high-level picture of what this looks like.</p>
+        <p>I can't wait to share more in this new year…</p>
+      </div>
+    </details>
+  </section>
+
+  <footer class="foot">
+    <span><b>Hunter Holcombe</b></span>
+    <span>·</span>
+    <span><a href="mailto:hunter.holcombe@gmail.com">hunter.holcombe@gmail.com</a></span>
+  </footer>
+
+</div>
+</body>
+</html>
