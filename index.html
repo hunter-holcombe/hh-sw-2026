@@ -4,30 +4,30 @@
 <meta charset="UTF-8">
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="color-scheme" content="light">
-<meta name="theme-color" content="#faf6ef">
-<meta name="description" content="Ten videos and one essay — founder thought leadership, produced films, live-event storytelling, and recurring formats, produced by Hunter Holcombe.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#16140f">
+<meta name="description" content="Selected work — company films, product explainers, studio &amp; broadcast, customer stories, executive content, and writing, produced by Hunter Holcombe.">
 <meta property="og:title" content="Hunter Holcombe — Selected Work for Cohere">
-<meta property="og:description" content="Founder thought leadership, produced films, live-event storytelling, recurring formats, and writing.">
+<meta property="og:description" content="Company films, product explainers, studio &amp; broadcast, customer stories, executive content, and writing.">
 <meta property="og:image" content="https://hunter-holcombe.github.io/hh-sw-2026/portfolio_assets/og.jpg">
 <meta property="og:url" content="https://hunter-holcombe.github.io/hh-sw-2026/">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23faf6ef'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' font-weight='600' text-anchor='middle' fill='%23c94f2b'%3EH%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2316140f'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' font-weight='600' text-anchor='middle' fill='%23d96a43'%3EH%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&display=swap" rel="stylesheet">
 <title>Hunter Holcombe — Selected Work</title>
 <style>
   :root{
-    --bg:#faf6ef;
-    --card:#fffdf8;
-    --line:#e5dccb;
-    --ink:#211f1a;
-    --body:#4c473f;
-    --muted:#6e6759;
-    --accent:#c94f2b;
-    --frame:#0e0d0b;
-    --ink-serif:#3c3830;
+    --bg:#16140f;
+    --card:#1e1b14;
+    --line:#373226;
+    --ink:#f2ecdf;
+    --body:#c6bfae;
+    --muted:#8f8775;
+    --accent:#d96a43;
+    --frame:#0a0908;
+    --ink-serif:#ddd5c3;
     --serif:"Newsreader",ui-serif,"New York","Iowan Old Style",Georgia,serif;
   }
   *{box-sizing:border-box;}
@@ -39,7 +39,7 @@
     -webkit-font-smoothing:antialiased;
     line-height:1.5;
   }
-  ::selection{background:rgba(201,79,43,.18);}
+  ::selection{background:rgba(217,106,67,.32);}
   .wrap{max-width:1180px;margin:0 auto;padding:56px 40px 0;}
 
   /* ===== masthead ===== */
@@ -84,35 +84,53 @@
   .duo{display:grid;grid-template-columns:repeat(2,1fr);gap:32px;margin-top:40px;}
   .trio{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;}
   .trio.two{grid-template-columns:repeat(2,1fr);max-width:720px;}
+  .row3{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;}
+  .row3 video{aspect-ratio:16/9;object-fit:cover;}
+  .quad{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;}
+  .quad video{aspect-ratio:9/16;object-fit:cover;}
 
   /* ===== cards ===== */
   .card{margin:0;min-width:0;}
   .frame{
     position:relative;cursor:pointer;
     background:var(--frame);
+    border:1px solid var(--line);
     border-radius:6px;
     overflow:hidden;
     line-height:0;
-    box-shadow:0 1px 2px rgba(60,48,30,.08),0 12px 32px -12px rgba(60,48,30,.18);
-    transition:box-shadow .2s ease;
+    box-shadow:0 1px 2px rgba(0,0,0,.5),0 14px 36px -12px rgba(0,0,0,.6);
+    transition:box-shadow .2s ease,border-color .2s ease;
   }
-  .card:hover .frame{box-shadow:0 2px 4px rgba(60,48,30,.1),0 18px 44px -12px rgba(60,48,30,.26);}
+  .card:hover .frame{border-color:#4a4334;box-shadow:0 2px 4px rgba(0,0,0,.55),0 20px 48px -12px rgba(0,0,0,.7);}
   .frame:focus-visible{outline:none;box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--accent);}
   .frame::after{
     content:"";position:absolute;inset:0;margin:auto;
     width:56px;height:56px;border-radius:50%;
-    border:1.5px solid rgba(250,246,239,.95);
-    background:rgba(14,13,11,.28) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 6.5v11l9-5.5z' fill='%23faf6ef'/%3E%3C/svg%3E") center/24px no-repeat;
+    border:1.5px solid rgba(242,236,223,.95);
+    background:rgba(10,9,8,.34) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 6.5v11l9-5.5z' fill='%23f2ecdf'/%3E%3C/svg%3E") center/24px no-repeat;
     pointer-events:none;transition:opacity .2s ease;
   }
   .frame.playing{cursor:default;}
   .frame.playing::after{opacity:0;}
+  .pod-tag{
+    position:absolute;left:12px;bottom:12px;z-index:2;
+    display:inline-flex;align-items:center;gap:7px;
+    font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--ink);background:rgba(10,9,8,.72);
+    border:1px solid rgba(242,236,223,.25);
+    padding:6px 10px;border-radius:99px;line-height:1;
+    pointer-events:none;transition:opacity .2s ease;
+  }
+  .pod-tag::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent);}
+  .frame.playing .pod-tag{opacity:0;}
   video{display:block;width:100%;height:auto;background:var(--frame);}
   .hero video,.duo video{aspect-ratio:16/9;object-fit:cover;}
   .trio video{aspect-ratio:9/16;object-fit:cover;}
   .cap{margin:16px 4px 0;}
   .cap .what{display:block;color:var(--ink);font-weight:600;font-size:14px;line-height:1.4;text-wrap:pretty;}
   .cap .why{display:block;color:var(--muted);font-size:13px;line-height:1.55;margin-top:6px;text-wrap:pretty;}
+  .cap .why a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(217,106,67,.4);}
+  .cap .why a:hover{border-bottom-color:var(--accent);}
 
   /* ===== written ===== */
   details{
@@ -121,7 +139,7 @@
     border-radius:6px;
     padding:8px 32px;
     max-width:820px;
-    box-shadow:0 1px 2px rgba(60,48,30,.05),0 8px 24px -10px rgba(60,48,30,.1);
+    box-shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -10px rgba(0,0,0,.5);
   }
   summary{
     cursor:pointer;list-style:none;
@@ -162,12 +180,13 @@
   }
 
   @media (max-width:860px){
-    .duo{grid-template-columns:1fr;}
-    .trio,.trio.two{grid-template-columns:repeat(2,1fr);gap:36px 20px;}
+    .duo,.row3{grid-template-columns:1fr;}
+    .trio,.trio.two,.quad{grid-template-columns:repeat(2,1fr);gap:36px 20px;}
     .sec-head{grid-template-columns:56px 1fr;column-gap:16px;}
     .sec-num{font-size:28px;}
     .sec-head h2{font-size:24px;}
     .sec{margin-top:88px;}
+    .stagger{margin-top:0 !important;}
   }
   @media (max-width:560px){
     .wrap{padding:36px 20px 0;}
@@ -179,9 +198,10 @@
     .frame,summary::before{transition:none;}
   }
   @media print{
+    body{background:#fff;color:#000;}
     .frame{box-shadow:none;}
     video,.frame::after{display:none;}
-    .cap .what::after{content:" — video";color:var(--muted);font-weight:400;}
+    .cap .what::after{content:" — video";color:#666;font-weight:400;}
   }
 </style>
 </head>
@@ -193,97 +213,184 @@
     <span class="when">July 2026</span>
   </header>
   <h1 class="title">Selected work for Cohere</h1>
-  <p class="intro">Below are a few examples, designed for Carta’s audience, goals, and on-camera talent. They’d likely be different for Cohere. Happy to walk through any of them.</p>
 
-  <!-- ===== SECTION 1 ===== -->
+  <!-- ===== 01 COMPANY FILMS ===== -->
   <section class="sec">
     <div class="sec-head">
       <span class="sec-num">01</span>
-      <h2>Produced Films &amp; Explainers</h2>
+      <h2>Commissioned Brand Films</h2>
+      <p class="sec-desc">Produced films that carry a company’s biggest stories.</p>
     </div>
-    <div class="hero">
+    <div class="duo">
       <figure class="card">
         <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p01.jpg?v=2" src="portfolio_assets/01_Henry_ERP-explainer_YT.mp4" aria-label="Keystone company announcement — Henry Ward, CEO, Carta"></video></div>
-        <figcaption class="cap"><span class="what">Keystone company announcement (Henry Ward, CEO — Carta)</span><span class="why">Carta’s platform-vision launch — a film I produced with the CEO to carry the company’s biggest announcement of the year.</span></figcaption>
+        <figcaption class="cap"><span class="what">Keystone company announcement (Henry Ward, CEO — Carta)</span><span class="why">The brief: carry the company’s biggest announcement of the year — Carta’s evolution into a platform. Delivered as a CEO-led film that anchored the launch across every channel.</span></figcaption>
+      </figure>
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p02.jpg?v=2" src="portfolio_assets/02_Google_documentary_YT.mp4" aria-label="Brand film for Google"></video></div>
+        <figcaption class="cap"><span class="what">Brand film (Google)</span><span class="why">The brief: make frontier research legible and human for a general audience. Delivered as a produced documentary — longer-form storytelling for complex technical work.</span></figcaption>
+      </figure>
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/yt_anglo.jpg" src="portfolio_assets/17_Anglo_HydrogenDoc.mp4" aria-label="Branded documentary — Anglo American hydrogen truck"></video></div>
+        <figcaption class="cap"><span class="what">Branded documentary (Anglo American)</span><span class="why">The brief: tell the story of a first-of-its-kind hydrogen-powered haul truck — deep engineering, made legible for a global audience. Delivered as a branded documentary.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== 02 PRODUCT EXPLAINERS ===== -->
+  <section class="sec">
+    <div class="sec-head">
+      <span class="sec-num">02</span>
+      <h2>Product Explainers</h2>
+      <p class="sec-desc">Technical products made legible — in studio, for social, and in animation.</p>
+    </div>
+    <div class="duo">
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/erp_anim_14s.jpg" src="portfolio_assets/16_Carta_ERP_Animated.mp4#t=14" aria-label="Animated explainer — Carta ERP"></video></div>
+        <figcaption class="cap"><span class="what">Animated explainer (Carta — ERP)</span><span class="why">The brief: the platform vision needed a version that could travel without an executive on camera. Delivered as an animated explainer.</span></figcaption>
+      </figure>
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/studio_diptych.jpg" src="portfolio_assets/14_Carta_StudioExplainer.mp4" aria-label="Studio explainer — AI automation in Carta Fund Admin"></video></div>
+        <figcaption class="cap"><span class="what">Studio explainer (Carta — AI fund administration)</span><span class="why">The brief: explain how AI automation rewires fund admin and LP reporting — a technical product, for a finance audience. Delivered as a studio explainer, part of the recurring &ldquo;Rewiring&rdquo; series.</span></figcaption>
       </figure>
     </div>
     <div class="duo">
       <figure class="card">
-        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p02.jpg?v=2" src="portfolio_assets/02_Google_documentary_YT.mp4" aria-label="Brand documentary for Google"></video></div>
-        <figcaption class="cap"><span class="what">Brand documentary (Google)</span><span class="why">Longer-form produced storytelling.</span></figcaption>
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p08.jpg?v=2" src="portfolio_assets/08_Henry_ProductDemo_LI.mp4" aria-label="Product storytelling, CEO-led"></video></div>
+        <figcaption class="cap"><span class="what">Product storytelling (CEO-led)</span><span class="why">The brief: present the product as a narrative, not a feature demo. Delivered as a CEO-led film that brought the software to life as a story.</span></figcaption>
       </figure>
       <figure class="card">
-        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p08.jpg?v=2" src="portfolio_assets/08_Henry_ProductDemo_LI.mp4" aria-label="Product storytelling, CEO-led"></video></div>
-        <figcaption class="cap"><span class="what">Product storytelling (CEO-led)</span><span class="why">A CEO-led initiative to present the product as narrative — the software brought to life as a story, not a feature demo.</span></figcaption>
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/yt_pecrm.jpg" src="portfolio_assets/15_Carta_PE-CRM_Explainer.mp4" aria-label="Product explainer — AI agents in private equity CRM"></video></div>
+        <figcaption class="cap"><span class="what">Product explainer for social (Director of Product — Carta)</span><span class="why">The brief: put product leadership on camera — three AI agent types rewiring private-equity CRM. Delivered as part of the recurring &ldquo;Rewiring&rdquo; explainer series.</span></figcaption>
       </figure>
     </div>
   </section>
 
-  <!-- ===== SECTION 2 ===== -->
+  <!-- ===== 03 STUDIO & BROADCAST ===== -->
   <section class="sec">
     <div class="sec-head">
-      <span class="sec-num">02</span>
-      <h2>Founder Thought Leadership</h2>
-      <p class="sec-desc">Short-form video built around a founder’s voice and point of view.</p>
+      <span class="sec-num">03</span>
+      <h2>Studio &amp; Broadcast</h2>
+      <p class="sec-desc">Selected work from my earlier career in television and news — studio interview shows and broadcast segments.</p>
+    </div>
+    <div class="hero">
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/gns_musk_29s.jpg" src="portfolio_assets/22_GNS_Demo.mp4" aria-label="The Gavin Newsom Show — production reel"></video></div>
+        <figcaption class="cap"><span class="what">The Gavin Newsom Show (Current TV)</span><span class="why">Reel from a weekly studio interview program I produced.</span></figcaption>
+      </figure>
+    </div>
+    <div class="duo">
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/bloomberg_169_poster.jpg" src="portfolio_assets/13_BloombergWest_169.mp4" aria-label="Bloomberg West — 2011 segment"></video></div>
+        <figcaption class="cap"><span class="what">Bloomberg West (Bloomberg TV)</span><span class="why">Episode from Emily Chang&rsquo;s daily tech program, which I helped produce.</span></figcaption>
+      </figure>
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/cbs_crypto_poster.jpg" src="portfolio_assets/24_CBS_CryptoDoc.mp4" aria-label="Cryptocurrency: Virtual Money, Real Power — CBS Reports documentary"></video></div>
+        <figcaption class="cap"><span class="what">Cryptocurrency: Virtual Money, Real Power (CBS Reports)</span><span class="why">A documentary I produced for CBS Reports — crypto&rsquo;s collision with a small town: virtual money, real power, and who holds it.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== 04 CUSTOMER & FOUNDER STORIES ===== -->
+  <section class="sec">
+    <div class="sec-head">
+      <span class="sec-num">04</span>
+      <h2>Customer &amp; Founder Stories</h2>
+      <p class="sec-desc">Customers, founders, and companies telling their own story on camera.</p>
+    </div>
+    <div class="duo">
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/yt_pelion.jpg" src="portfolio_assets/20_Pelion_Testimonial.mp4" aria-label="Customer testimonial — Pelion Venture Partners"></video></div>
+        <figcaption class="cap"><span class="what">Customer testimonial (Pelion Venture Partners — Carta)</span><span class="why">The brief: let the customer tell the story — why a venture firm chose the platform. Delivered as a produced testimonial film.</span></figcaption>
+      </figure>
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/yt_checkerspot.jpg" src="portfolio_assets/18_Checkerspot_FounderProfile.mp4" aria-label="Founder profile — Checkerspot"></video></div>
+        <figcaption class="cap"><span class="what">Founder profile (Checkerspot — commissioned)</span><span class="why">The brief: a commissioned profile of a founder replacing fossil fuels with microalgae — make hard science personal. Delivered as a short founder film.</span></figcaption>
+      </figure>
+    </div>
+    <div class="duo">
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/yt_dexcare.jpg" src="portfolio_assets/19_DexCare_Mission.mp4" aria-label="Company mission story — DexCare"></video></div>
+        <figcaption class="cap"><span class="what">Company mission story (DexCare — commissioned)</span><span class="why">The brief: tell a tech company&rsquo;s launch story — why it exists and who it serves. Delivered as a mission film built to introduce the company.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== 05 ON STAGE & IN THE FIELD ===== -->
+  <section class="sec">
+    <div class="sec-head">
+      <span class="sec-num">05</span>
+      <h2>On Stage &amp; In the Field</h2>
+      <p class="sec-desc">Executives at live events, interviews, and appearances — turned into social-ready moments.</p>
+    </div>
+    <div class="quad">
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p04.jpg?v=8" src="portfolio_assets/04_Charly_BTS_YTshort.mp4" aria-label="Executive field piece — Charly Kevers, CFO, at SuperReturn"></video></div>
+        <figcaption class="cap"><span class="what">Executive field piece (Charly Kevers, CFO — at SuperReturn)</span><span class="why">The brief: extend the same capture system beyond the CEO. Delivered with the CFO at SuperReturn — the approach scaled across the C-suite.</span></figcaption>
+      </figure>
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p09.jpg?v=5" src="portfolio_assets/09_Henry_StageCapture-AI_LI.mp4" aria-label="Fireside stage moment — Henry Ward"></video></div>
+        <figcaption class="cap"><span class="what">Fireside stage moment (Henry Ward)</span><span class="why">The brief: the founder’s stage time was reaching the room but not the feed. Delivered as atomized clips built for social — stage minutes turned into a content library.</span></figcaption>
+      </figure>
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p_charly_tender.jpg" src="portfolio_assets/23_Charly_TenderOffers_LI.mp4" aria-label="Executive interview clip — Charly Kevers, CFO, at The Information on tender offers"></video></div>
+        <figcaption class="cap"><span class="what">Executive interview clip (Charly Kevers, CFO — The Information)</span><span class="why">The brief: the CFO sat with The Information to talk tender offers — the moment needed to travel beyond the room. Delivered as a captioned social clip.</span></figcaption>
+      </figure>
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p05.jpg?v=2" src="portfolio_assets/05_Henry_HumanX-capture_LI.mp4" aria-label="Conference interview — Henry Ward at HumanX"></video></div>
+        <figcaption class="cap"><span class="what">Conference interview (Henry Ward, HumanX)</span><span class="why">The brief: an on-site conference interview, needed back fast. Delivered as punchy captioned clips while the event was still in the news cycle.</span></figcaption>
+      </figure>
+    </div>
+    <div class="duo">
+      <figure class="card">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/yt_nyse.jpg" src="portfolio_assets/21_Henry_NYSE-LIVE.mp4" aria-label="Sourced appearance — Carta CEO on NYSE LIVE"></video></div>
+        <figcaption class="cap"><span class="what">Sourced appearance (Henry Ward, CEO — NYSE LIVE)</span><span class="why">The brief: the CEO&rsquo;s NYSE LIVE appearance — on IPO partners, at the exchange — shouldn&rsquo;t vanish after airing. Delivered as a sourced appearance clip, turned into owned content.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== 06 EXECUTIVE SHORT-FORM ===== -->
+  <section class="sec">
+    <div class="sec-head">
+      <span class="sec-num">06</span>
+      <h2>Executive Short-form</h2>
+      <p class="sec-desc">Short-form video built around an executive’s voice and point of view.</p>
     </div>
     <div class="trio two">
       <figure class="card">
         <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p03.jpg?v=2" src="portfolio_assets/03_Henry_DC-401k_HD.mp4" aria-label="On location in DC — Henry Ward, CEO"></video></div>
-        <figcaption class="cap"><span class="what">On location in DC (Henry Ward, CEO)</span><span class="why">Field-captured around Capitol Hill policy meetings — with the SEC and policy leaders on equity in 401ks — turned into timely, shareable content.</span></figcaption>
+        <figcaption class="cap"><span class="what">On location in DC (Henry Ward, CEO)</span><span class="why">The brief: the CEO had a day of Capitol Hill meetings — SEC and policy leaders on equity in 401ks — and the moment needed to be captured, not lost. Delivered as timely, shareable field content.</span></figcaption>
       </figure>
       <figure class="card">
         <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p07.jpg?v=2" src="portfolio_assets/07_Henry_ProductMgmt-TL_LI.mp4" aria-label="Short-form point of view — Henry Ward, CEO"></video></div>
-        <figcaption class="cap"><span class="what">Short-form POV (Henry Ward, CEO)</span><span class="why">One of a standing cadence of quick takes that keep the founder’s voice in front of his audience consistently.</span></figcaption>
+        <figcaption class="cap"><span class="what">Short-form POV (Henry Ward, CEO)</span><span class="why">The brief: keep the founder’s voice in front of his audience on a standing cadence. Delivered as a repeatable quick-take format — this is one of many.</span></figcaption>
       </figure>
     </div>
   </section>
 
-  <!-- ===== SECTION 3 ===== -->
+  <!-- ===== 07 RECURRING SERIES & FORMATS ===== -->
   <section class="sec">
     <div class="sec-head">
-      <span class="sec-num">03</span>
-      <h2>On Stage &amp; In the Field</h2>
-      <p class="sec-desc">Executives at live events and interviews, turned into social-ready moments.</p>
-    </div>
-    <div class="trio">
-      <figure class="card">
-        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p09.jpg?v=5" src="portfolio_assets/09_Henry_StageCapture-AI_LI.mp4" aria-label="Fireside stage moment — Henry Ward"></video></div>
-        <figcaption class="cap"><span class="what">Fireside stage moment (Henry Ward)</span><span class="why">A founder’s stage time, atomized into clips built for social.</span></figcaption>
-      </figure>
-      <figure class="card">
-        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p05.jpg?v=2" src="portfolio_assets/05_Henry_HumanX-capture_LI.mp4" aria-label="Conference interview — Henry Ward at HumanX"></video></div>
-        <figcaption class="cap"><span class="what">Conference interview (Henry Ward, HumanX)</span><span class="why">An on-site interview, turned around as punchy captioned clips.</span></figcaption>
-      </figure>
-      <figure class="card">
-        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p04.jpg?v=8" src="portfolio_assets/04_Charly_BTS_YTshort.mp4" aria-label="Executive field piece — Charly Kevers, CFO, at SuperReturn"></video></div>
-        <figcaption class="cap"><span class="what">Executive field piece (Charly Kevers, CFO — at SuperReturn)</span><span class="why">The same approach extended beyond the CEO — scaled across the C-suite.</span></figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <!-- ===== SECTION 4 ===== -->
-  <section class="sec">
-    <div class="sec-head">
-      <span class="sec-num">04</span>
+      <span class="sec-num">07</span>
       <h2>Recurring Series &amp; Formats</h2>
-      <p class="sec-desc">Owned, repeatable formats that build an audience over time.</p>
+      <p class="sec-desc">Two different owned formats: a designed video series, and a podcast produced end-to-end.</p>
     </div>
     <div class="trio two">
       <figure class="card">
         <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p07b.jpg?v=7" src="portfolio_assets/07b_Peter_3takeaways_HD.mp4" aria-label="Three takeaways format — Peter Walker, Head of Insights"></video></div>
-        <figcaption class="cap"><span class="what">“Three takeaways” format (Peter Walker, Head of Insights)</span><span class="why">A format I designed to turn an expert’s insight into a clean, recurring series.</span></figcaption>
+        <figcaption class="cap"><span class="what">Video series — &ldquo;Three Takeaways&rdquo; (Peter Walker, Head of Insights)</span><span class="why">The brief: our data expert had more insight than distribution. Delivered as a format I designed to turn his analysis into a clean, recurring series.</span></figcaption>
       </figure>
-      <figure class="card">
-        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/p11.jpg?v=5" src="portfolio_assets/11_DataMinute-2_LI.mp4" aria-label="Data Minute — a recurring podcast"></video></div>
-        <figcaption class="cap"><span class="what">Data Minute — a podcast I produce</span><span class="why">A recurring show I make with Peter Walker — produced end-to-end, from format to distribution.</span></figcaption>
+      <figure class="card stagger" style="margin-top:72px">
+        <div class="frame" tabindex="0"><video playsinline preload="none" controlslist="nodownload" poster="portfolio_assets/_posters/dataminute_mic_poster.jpg" src="portfolio_assets/11_DataMinute-2_LI.mp4" aria-label="Data Minute — a recurring podcast"></video><span class="pod-tag">Data Minute · Podcast</span></div>
+        <figcaption class="cap"><span class="what">Podcast — &ldquo;Data Minute&rdquo; (produced end-to-end)</span><span class="why">The brief: build an owned, repeatable show around Carta’s data. Delivered end-to-end — format, production, and distribution — as a recurring series with Peter Walker.</span></figcaption>
       </figure>
     </div>
   </section>
 
-  <!-- ===== SECTION 5 ===== -->
+  <!-- ===== 08 WRITTEN ===== -->
   <section class="sec">
     <div class="sec-head">
-      <span class="sec-num">05</span>
+      <span class="sec-num">08</span>
       <h2>Written</h2>
       <p class="sec-desc">Thought leadership I ghostwrote for the CEO’s LinkedIn.</p>
     </div>
